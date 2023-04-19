@@ -12,7 +12,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+button {
+  background-color: rgb(234, 214, 102);
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 5px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +27,13 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.active {
+  font-weight: bold;
+  color: red;
+}
+li {
+  list-style: none;
 }
 
 .App-link {
